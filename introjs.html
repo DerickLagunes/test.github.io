@@ -10,34 +10,39 @@
 
 <body>
 
-    <p id="texto">Soy un texto en una etiqueta p</p>
-    <button onclick="cambiarTexto()">Cambiar</button>
+    <div>
+        <p id="texto">Soy un texto en una etiqueta p</p>
+        <button onclick="cambiarTexto()">Cambiar</button>
+    </div>
 
     <br>
     <br>
     <br>
     <br>
 
-    <img id="imagen" src="doge.jpg" alt="un perro" >
-    <button onclick="cambiarAtributo()">Cambiar imagen</button>
+    <div>
+        <img id="imagen" src="doge.jpg" alt="un perro" width="250px">
+        <button onclick="cambiarAtributo()">Cambiar imagen</button>
+    </div>
 
     <br>
     <br>
     <br>
     <br>
 
-    <table id="tabla">
-        <tr>
-            <th>
-                Alumno
-            </th>
-            <th>
-                Edad
-            </th>
-        </tr>
-    </table>
-    <button onclick="agregarElemento()">Agregar</button>
-
+    <div>
+        <table id="tabla">
+            <tr>
+                <th>
+                    Alumno
+                </th>
+                <th>
+                    Edad
+                </th>
+            </tr>
+        </table>
+        <button onclick="agregarElemento()">Agregar</button>
+    </div>
 
     <script>
         function cambiarTexto() {
